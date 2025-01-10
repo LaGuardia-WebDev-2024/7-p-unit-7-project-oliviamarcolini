@@ -1,3 +1,8 @@
+@font-face{
+  font-family: title;
+  src: url(https://cdn.glitch.global/52f69e18-6adb-4e38-b4b9-69f74008dedd/Vintage%20Signature.ttf?v=1736516343703)
+}
+
 body {
   background-color: black;
   text-align: center;
@@ -6,7 +11,7 @@ body {
 
 
 #myCanvas {
-  background-image: url("https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://media.istockphoto.com/id/603164912/photo/suburb-asphalt-road-and-sun-flowers.jpg?s=612x612&w=0&k=20&c=qLoQ5QONJduHrQ0kJF3fvoofmGAFcrq6cL84HbzdLQM=");
   background-size: 400px;
   border-radius: 30px;
   border: 1px solid rgb(255,245,227);
@@ -18,3 +23,18 @@ body {
   justify-content: space-around;
 }
 
+#travel{
+  color: #2368a1;
+  font-style: italic;
+}
+
+h1 {
+  font-family: title;
+  font-size: 3em;
+}
+
+hr {
+  height: 5px;
+  width: 85%;
+  background-color: #a5bdd1;
+}
